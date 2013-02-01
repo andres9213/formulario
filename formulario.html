@@ -1,0 +1,174 @@
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<title> </title>
+<link rel="stylesheet" type="text/css" href="for.css">
+<script> 
+$(document).ready(function(){
+	$('#enviarr').click(function(){
+		var nombre = $("#itnombre").val();
+		var edad = $("#itedad").val();
+        var direccion = $("#itdireccion").val();
+        var telefono = $("#ittelefono").val();
+        var pais = $("#itpais").val();
+
+
+		if(nombre == ""){
+			$("#mensaje1").fadeIn();
+		}
+
+		if(edad == ""){
+			$("#mensaje2").fadeIn();
+		}
+         
+         if(direccion == ""){
+			$("#mensaje3").fadeIn();
+		}
+
+         if(telefono == ""){
+			$("#mensaje4").fadeIn();
+		}
+
+         if(pais == "") {
+            $("#mensaje6").fadeIn();
+
+         }
+
+	});
+
+
+
+
+
+});
+</script>
+</head>
+<div id="pagina">
+<body>
+<div id="title"><h1>Music Device Av.Lalala 123/Santiago Web Testing Project</h1></div>
+
+<div id="fecha">
+<td colspan="5" align="right">Stgo.<input text="" name="txtstgo" size="3">  De <select name="lstmes">
+
+		<option value="0">0</option>
+		<option value="Enero">01</option>
+		<option value="Febrero">02</option>
+		<option value="Marzo">03</option>
+		<option value="Abril">04</option>
+		<option value="Mayo">05</option>
+		<option value="Junio">06</option>
+		<option value="Julio">07</option>
+		<option value="Agosto">08</option>
+		<option value="Septiembre">09</option>
+		<option value="Octubre">10</option>
+		<option value="Noviembre">11</option>
+		<option value="Diciembre">12</option>
+		
+	</select> Del <input text="" name="txtdel" size="2"></td>
+         </tr>
+
+     </div>
+
+
+<label>*nombre:</label><br />
+<input type="text" id="itnombre" class="campo" /><br />
+<div id="mensaje1" class="error">ingresa tu nombre</div>
+
+<div class="rut">
+
+<label>Rut:</label><br />
+<input type="text" id="itrut" class="campo" /><br />
+<div id="mensajer0" class="error">ingresa tu rut</div>
+
+</div>
+
+
+<label>*edad:</label><br />
+<input type="text" id="itedad" class="campo" /><br />
+<div id="mensaje2" class="error">ingresa tu edad</div>
+
+<label>*direccion:</label><br />
+<input type="text" id="itdireccion" class="campo" /><br />
+<div id="mensaje3" class="error">ingresa tu dirreccion</div>
+
+<div class="rut">
+
+<label>Rut:</label><br />
+<input type="text" id="itrut1" class="campo" /><br />
+<div id="mensajer" class="error">ingresa tu rut</div>
+
+</div>
+
+<label>*telefono:</label><br />
+<input type="text" id="ittelefono" class="campo" /><br />
+<div id="mensaje4" class="error">ingresa tu telefono</div>
+
+<div class="ciudad">
+<label>ciudad:</label><br />
+<input type="text" id="itciudad" class="campo" /><br />
+<div id="mensaje5" class="error">ingresa tu ciudad</div>
+</div>
+
+<label>*pais:</label><br />
+<input type="text" id="itpais" class="campo" /><br />
+<div id="mensaje6" class="error">ingresa tu pais</div>
+
+
+
+<div id="codigo">
+<label>codigo</label><br />
+<input type="text" class="codigo" class="campo" /><br />
+<input type="text" class="codigo" class="campo" /><br />
+<input type="text" class="codigo" class="campo" /><br />
+<input type="text" class="codigo" class="campo" /><br />
+</div>
+
+
+<div id="cantidad">
+<label>cantidad:</label><br />
+<input type="text" class="comision" class="campo" /><br />
+<input type="text" class="comision" class="campo" /><br />
+<input type="text" class="comision" class="campo" /><br />
+<input type="text" class="comision" class="campo" /><br />
+</div>
+
+
+<div id="descripcion">
+<label>descripcion:</label><br />
+<input type="text" class="descripcion" class="campo" /><br />
+<input type="text" class="descripcion" class="campo" /><br />
+<input type="text" class="descripcion" class="campo" /><br />
+<input type="text" class="descripcion" class="campo" /><br />
+</div>
+
+
+<div id="valor">
+<label>valor unitario:</label><br />
+<input type="text" class="unitario" class="campo" /><br />
+<input type="text" class="unitario" class="campo" /><br />
+<input type="text" class="unitario" class="campo" /><br />
+<input type="text" class="unitario" class="campo" /><br />
+</div>
+
+
+
+<div id="total">
+<label>total:</label><br />
+<input type="text" class="total" class="campo" /><br />
+<input type="text" class="total" class="campo" /><br />
+<input type="text" class="total" class="campo" /><br />
+<input type="text" class="total" class="campo" /><br />
+</div>
+
+
+<input type="submit" id="enviarr" calue="enviar datos" class="boton" />
+
+
+ <input type="submit" value="Limpiar">
+			 <input type="button" value="otro">
+			 <input type="submit" value="Nuevo"> 
+			 <input type="submit" value="Radio"></td>
+
+</div>
+</body>
+</html>

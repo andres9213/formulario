@@ -1,0 +1,61 @@
+.error{
+	display: none;
+	color: red;
+}
+
+#title {
+	border-bottom: 2px solid black;
+	margin-bottom: 15px;
+}
+
+#pagina {
+border:5px solid black;
+width: 800px;
+}
+#fecha {
+	float: right;
+	margin-top: -10px;
+	margin-right: 17px
+}
+.rut {
+margin-left: 161px;
+margin-top: -41px;
+
+}
+
+.ciudad {
+	margin-left: 161px;
+	margin-top:-40px;
+}
+
+#cantidad {
+	margin-left: 131px;
+margin-top: -104px;
+border-left: 1px solid black;
+padding-left: 9px;
+
+}
+
+#descripcion {
+	margin-left: 275px;
+margin-top: -104px;
+border-left: 1px solid black;
+padding-left: 9px;
+
+}
+
+#valor{
+	margin-left: 416px;
+margin-top: -104px;
+border-left: 1px solid black;
+padding-left: 9px;
+
+}
+
+#total {
+	margin-left: 560px;
+margin-top: -104px;
+border-left: 1px solid black;
+padding-left: 9px;
+
+}
