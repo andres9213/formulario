@@ -10,7 +10,7 @@
 
 #pagina {
 border:5px solid black;
-width: 800px;
+width: 900px;
 }
 #fecha {
 	float: right;
@@ -29,32 +29,32 @@ margin-top: -41px;
 }
 
 #cantidad {
-	margin-left: 131px;
-margin-top: -104px;
+	margin-left: 167px;
+margin-top: -118px;
 border-left: 1px solid black;
 padding-left: 9px;
 
 }
 
 #descripcion {
-	margin-left: 275px;
-margin-top: -104px;
+	margin-left: 343px;
+margin-top: -121px;
 border-left: 1px solid black;
 padding-left: 9px;
 
 }
 
 #valor{
-	margin-left: 416px;
-margin-top: -104px;
+margin-left: 521px;
+margin-top: -111px;
 border-left: 1px solid black;
 padding-left: 9px;
 
 }
 
 #total {
-	margin-left: 560px;
-margin-top: -104px;
+	margin-left: 700px;
+margin-top: -125px;
 border-left: 1px solid black;
 padding-left: 9px;
 
